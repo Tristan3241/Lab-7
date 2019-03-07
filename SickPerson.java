@@ -23,4 +23,8 @@ public class SickPerson extends Person{
 		}
 
 	}
+	@Override
+	public String toString() {
+		return String.format("%s Severity level %d",this.getName(),this.getSeverity());
+	}
 }

@@ -7,9 +7,9 @@ OU EMAIL____________: tristan.j.alvey-1@ou.edu
 Tasks:
 1. HealthyPerson
 2. SickPerson
-3. 
-4. 
-5. 
+3. StackHospital
+4. QueueHospital
+5. PriorityHospital
 6. 
 7. 
 8. 
@@ -21,7 +21,7 @@ Tasks:
 Estimated Time (minutes):
 1. 10
 2. 10
-3. 
+3. 20
 4. 
 5. 
 6. 
@@ -35,7 +35,7 @@ Estimated Time (minutes):
 Actual Time (minutes):
 1. 15
 2. 9
-3. 
+3. 15
 4. 
 5. 
 6. 
