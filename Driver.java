@@ -29,25 +29,25 @@ public class Driver
     {
         // Set up the hospitals to compare:
     	StackHospital<Animal> animalStack = new StackHospital<Animal>();
-    	//QueueHospital<Animal> animalQueue = new QueueHospital<Animal>();
-    	//PriorityQueueHospital<Animal> animalPQueue = new PriorityQueueHospital<Animal>();
+    	QueueHospital<Animal> animalQueue = new QueueHospital<Animal>();
+    	PriorityQueueHospital<Animal> animalPQueue = new PriorityQueueHospital<Animal>();
 
     	StackHospital<Person> personStack = new StackHospital<Person>();
-    	//QueueHospital<Person> personQueue = new QueueHospital<Person>();
-    	//PriorityQueueHospital<Person> personPQueue = new PriorityQueueHospital<Person>();
+    	QueueHospital<Person> personQueue = new QueueHospital<Person>();
+    	PriorityQueueHospital<Person> personPQueue = new PriorityQueueHospital<Person>();
 
-    	// Aggregate structures:
+    	//Aggregate structures:
     	ArrayList<Hospital<Animal>> animalHospitals = new ArrayList<Hospital<Animal>>();
     	ArrayList<Hospital<Person>> personHospitals = new ArrayList<Hospital<Person>>();
 
     	animalHospitals.add(animalStack);
-    	//animalHospitals.add(animalQueue);
-    	//animalHospitals.add(animalPQueue);
+    	animalHospitals.add(animalQueue);
+    	animalHospitals.add(animalPQueue);
     	String[] ahNames = {"AStack", "AQueue", "APQueue"};
 
     	personHospitals.add(personStack);
-    	//personHospitals.add(personQueue);
-    	//personHospitals.add(personPQueue);
+    	personHospitals.add(personQueue);
+    	personHospitals.add(personPQueue);
     	String[] phNames = {"PStack", "PQueue", "PPQueue"};
 
         // Set up the user input loop:
