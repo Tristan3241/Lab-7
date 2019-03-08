@@ -17,9 +17,9 @@ public class SickPerson extends Person{
 		if(this.getSeverity() < ((SickPerson) p).getSeverity()) {
 			return 1;
 		} else if (this.getSeverity() > ((SickPerson) p).getSeverity()) {
-			return 2;
+			return -1;
 		} else {
-			return 3;
+			return 0;
 		}
 
 	}
